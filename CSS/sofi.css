@@ -1,0 +1,50 @@
+#frm{
+    float: left;
+    margin: 20PX;
+    
+}
+#Address{
+    float: right;
+    margin: 20PX;
+}
+#Center{
+    width: 80%;
+    margin: 0 auto;
+    height: 500px;
+}
+#map img{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    
+}
+
+
+
+button{
+    background-color: blue;
+    border-radius: 20px;
+    padding: 10px;
+    color: white;
+    border-style: none;
+    margin-top: 10px;
+    font-size: 15px;
+}
+button a{
+    color: white;
+    text-decoration-line: none;
+}
+input{
+    border-radius: 15px;
+    padding: 5px;
+    border-style: solid blue;
+    border-style: none;
+    border: 1px solid blue;
+    width: 350%;
+    
+}
+#msg{
+    height: 100px;
+}
+

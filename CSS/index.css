@@ -1,0 +1,172 @@
+
+body{
+    width: 95%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+nav {
+    text-align:right;
+    border-bottom: 5px solid blue;
+    padding: 20px;
+}
+nav a{
+    font-style: normal;
+    color: blue;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
+    border-radius: 200px;
+
+
+}
+nav a.active {
+    background-color: blue;
+    color: white;
+
+} 
+
+
+
+
+/* slideshow */
+
+#slider{
+    overflow: hidden;
+    margin-right: 30px;
+    margin-top: 10px;
+    clear: both;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0px;
+    animation: 10s raph infinite;
+}
+#slider figure img{
+    float: left;
+    width: 20%;
+}
+@keyframes raph{
+    0%{
+        left: 0%;
+    }
+    20%{
+        left: 0%;
+    }
+    25%{
+        left: -100%;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400%;
+    }
+    
+}
+#readmore{
+    position: relative;
+    top: -100px;
+    left: 900px;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    background-color: #050D60;
+    border-radius: 15px;
+    border-style: none;
+    border: 1px solid white;
+    font-size: 20px;
+
+    
+}
+
+#main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 150px;
+    
+}
+#main img{
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px 3px black;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+#main img p{
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/* end of slideshow */
+nav img{
+    position:relative;
+    float: left;
+}
+footer{
+    background-color :#050D60;
+    padding: 20px;
+    color: white;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+footer a:last-child{
+    float: right;
+}
+
+
+/* About Page formating */
+
+#banner{
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+#bantext{
+    position: absolute;
+    top: 150px;
+    left: 16px;
+    font-size: 4rem;
+}
+
+#banner img{
+    width: 100%;
+    height: 500px;
+    
+}
+#banner h2{
+    text-decoration: none;
+
+
+}
+/* Gallery */
+#project{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap:1em;
+}
